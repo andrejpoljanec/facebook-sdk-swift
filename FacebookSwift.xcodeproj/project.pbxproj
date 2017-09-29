@@ -51,7 +51,6 @@
 		81D6468B1D2C8D7800690609 /* ContentSharingResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D646531D2C8D7800690609 /* ContentSharingResultProtocol.swift */; };
 		81D6468C1D2C8D7800690609 /* Hashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D646541D2C8D7800690609 /* Hashtag.swift */; };
 		81D6468D1D2C8D7800690609 /* PostSharingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D646551D2C8D7800690609 /* PostSharingResult.swift */; };
-		81D6468E1D2C8D7800690609 /* LinkShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D646571D2C8D7800690609 /* LinkShareContent.swift */; };
 		81D6468F1D2C8D7800690609 /* OpenGraphAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D646591D2C8D7800690609 /* OpenGraphAction.swift */; };
 		81D646901D2C8D7800690609 /* OpenGraphObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6465A1D2C8D7800690609 /* OpenGraphObject.swift */; };
 		81D646911D2C8D7800690609 /* OpenGraphPropertyContaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6465B1D2C8D7800690609 /* OpenGraphPropertyContaining.swift */; };
@@ -400,7 +399,6 @@
 		81D646531D2C8D7800690609 /* ContentSharingResultProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSharingResultProtocol.swift; sourceTree = "<group>"; };
 		81D646541D2C8D7800690609 /* Hashtag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashtag.swift; sourceTree = "<group>"; };
 		81D646551D2C8D7800690609 /* PostSharingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSharingResult.swift; sourceTree = "<group>"; };
-		81D646571D2C8D7800690609 /* LinkShareContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkShareContent.swift; sourceTree = "<group>"; };
 		81D646591D2C8D7800690609 /* OpenGraphAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphAction.swift; sourceTree = "<group>"; };
 		81D6465A1D2C8D7800690609 /* OpenGraphObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphObject.swift; sourceTree = "<group>"; };
 		81D6465B1D2C8D7800690609 /* OpenGraphPropertyContaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphPropertyContaining.swift; sourceTree = "<group>"; };
@@ -747,7 +745,6 @@
 			isa = PBXGroup;
 			children = (
 				81D646511D2C8D7800690609 /* Common */,
-				81D646561D2C8D7800690609 /* Link */,
 				81D646581D2C8D7800690609 /* OpenGraph */,
 				81D6465F1D2C8D7800690609 /* Photo */,
 				81D646621D2C8D7800690609 /* Video */,
@@ -764,14 +761,6 @@
 				81D646551D2C8D7800690609 /* PostSharingResult.swift */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		81D646561D2C8D7800690609 /* Link */ = {
-			isa = PBXGroup;
-			children = (
-				81D646571D2C8D7800690609 /* LinkShareContent.swift */,
-			);
-			path = Link;
 			sourceTree = "<group>";
 		};
 		81D646581D2C8D7800690609 /* OpenGraph */ = {
@@ -1377,7 +1366,6 @@
 				81D646AA1D2C8D7800690609 /* ShareDialog.swift in Sources */,
 				81D646B41D2C8D7800690609 /* SendButton.swift in Sources */,
 				F5FE8BFF1D2DDB1100A0E4CF /* AppInvite.Result.swift in Sources */,
-				81D6468E1D2C8D7800690609 /* LinkShareContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

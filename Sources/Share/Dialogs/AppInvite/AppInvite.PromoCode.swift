@@ -106,8 +106,7 @@ extension AppInvite.PromoCode {
       validCharacters.contains(UnicodeScalar(UInt16($0.value))!)
     }
 
-    let range = 0 ..< min(10, cleaned.count)
-    let characters = cleaned[range].map(Character.init)
+    let characters = String(cleaned[cleaned.startIndex..<cleaned.index(cleaned.startIndex, offsetBy: min(10, cleaned.count))])
     return String(characters)
   }
 }
